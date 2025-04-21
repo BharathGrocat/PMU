@@ -1,0 +1,1036 @@
+@font-face {
+    src: url('../font/Poppins-Regular.ttf');
+    font-family: 'Poppins-regular';
+}
+
+@font-face {
+    src: url('../font/Poppins-SemiBold.ttf');
+    font-family: 'Poppins-SemiBold';
+}
+
+@font-face {
+    src: url('../font/Poppins-Bold.ttf');
+    font-family: 'Poppins-bold';
+}
+
+
+html {
+    width: 100%;
+}
+
+body {
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-regular';
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p,
+li {
+    font-size: 16px;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.sub_heading {
+    font-family: 'Poppins-SemiBold';
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+section {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.custom-btn {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    background: #F05123;
+    color: #fff;
+    border: none;
+    z-index: 1;
+    font-size: 18px;
+    padding: 13px 30px;
+}
+
+.custom-btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 64px 0px #0000001A;
+}
+
+.custom-btn:hover {
+    color: #F05123;
+    padding: 13px 30px;
+    border: 1px solid #F05123;
+
+}
+
+.custom-btn:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+/* css start */
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 50%;
+}
+
+.header-main .book-btn {
+    width: 50%;
+    text-align: right;
+}
+
+/* popup  */
+.popup-select .col-12 input,
+.popup-select .col-12 select {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 11px 20px;
+    border-radius: 0;
+}
+
+.book-constmain h3.text-center {
+    text-align: center !important;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+}
+
+.book-constmain .modal-header {
+    border-bottom: 0;
+}
+
+button.book-enquiry {
+    border: 0;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: rotate(-90deg) translate(12px, 2.8rem);
+    padding: 10px 15px;
+    background: #F05123;
+    color: #fff;
+    font-size: 18px;
+    z-index: 99999;
+    font-family: 'Poppins-regular';
+}
+
+.popup-select form button {
+    background: #A75235;
+    padding: 20px 37px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 1;
+    border: none;
+    width: 100%;
+}
+
+/* header */
+.header-logo img {
+    width: 30%;
+}
+
+.header-main .book-btn a {
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #F05123;
+    padding: 10px 25px;
+}
+
+
+footer.footer_sec {
+    background: #E7EBEC;
+    padding: 60px 0 0px;
+    float: left;
+    width: 100%;
+}
+
+.footer-main h4 {
+    font-family: 'Poppins-SemiBold';
+    font-weight: 600;
+    font-size: 25px;
+    color: #F05123;
+    margin-bottom: 30px;
+}
+
+.footer-main img {
+    width: 45%;
+}
+
+.footer-main .foot_contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.foot_contact a {
+    font-size: 18px;
+    color: #000000;
+}
+
+.foot_contact i {
+    color: #F05123;
+    width: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.copy_ryt {
+    background: #F05223;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.copy_ryt a,
+.copy_ryt p {
+    color: #fff;
+}
+
+/* main sec start */
+section.banner_sec {
+    background: #E7EBEC;
+    padding-top: 0;
+}
+
+.banner_sec .banner_btn {
+    position: absolute;
+    bottom: 3rem;
+    width: 50%;
+}
+
+.banner_sec .banner_btn a {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin-left: 3rem;
+    width: 50%;
+    text-align: center;
+}
+
+.banner_sec .banner_btn p {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* programme Start */
+section.programme_sec {
+    background: #FFF3F0;
+}
+
+.program_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.program_main .program_inner {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+
+}
+
+.program_inner p {
+    width: 100%;
+}
+
+.program_main .program_inner::before {
+    position: absolute;
+    content: '';
+    border-right: 1px solid #000;
+    height: 100%;
+    width: 2px;
+    right: 0;
+    top: 0;
+}
+
+.program_main .program_inner:last-child {
+    padding: 0 30px;
+}
+
+.program_main .program_inner:last-child::before {
+    display: none;
+}
+
+.program_inner h4 {
+    font-family: 'Poppins-SemiBold';
+    font-weight: 600;
+    font-size: 17px;
+    width: 75%;
+    margin: auto;
+}
+
+/* why choose */
+
+section.why_choose h2 {
+    font-weight: 600;
+    line-height: 52px;
+    font-family: 'Poppins-SemiBold';
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.why_choose h2 span {
+    width: 100%;
+}
+
+.why_choose p {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 30px 0;
+}
+
+.choose_main h3 {
+    font-weight: 600;
+    line-height: 100%;
+    font-family: 'Poppins-SemiBold';
+    color: #F05223;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.choose_main.row {
+    gap: 20px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.choose_main .choose_innr {
+    background: #FFF3F0;
+    border: 1px solid #F05223;
+    padding: 30px;
+    width: 30%;
+}
+
+.choose_main .choose_innr ul {
+    margin-bottom: 0;
+}
+
+.choose_innr li {
+    margin-bottom: 10px;
+}
+
+.choose_millon h3 {
+    background: #F05223;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.choose_main .choose_Upsurge {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.choose_Upsurge .choose_millon {
+    background: #FFF3F0;
+    border: 1px solid #F05223;
+}
+
+.choose_millon p {
+    padding: 30px;
+    margin: 0;
+}
+
+.why_choose .know_more {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Immersive Technologies */
+section.immersive_sec {
+    padding-top: 0;
+}
+
+.immersive_sec .immersive_main {
+    position: absolute;
+    top: 0;
+    background-image: url(../image/immer_contbg.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 30px 30px 100px;
+    width: 40%;
+    right: 15rem;
+    background-size: 100% 100%;
+}
+
+.immersive_main h2 {
+    font-family: 'Poppins-bold';
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.immersive_main h3 {
+    font-weight: 600;
+    font-family: 'Poppins-SemiBold';
+}
+
+.immersive_main h5 {
+    font-size: 28px;
+}
+
+.immersive_sec .immersiv_cont {
+    margin-top: 30px;
+}
+
+.immersiv_cont h4 {
+    font-size: 20px;
+}
+
+.immersiv_cont p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Semester */
+
+.modules_program .modules_main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: center;
+}
+
+.modules_main .module_inner {
+    width: 31%;
+    background: #FFF3F0;
+    border: 1px solid #F05223;
+}
+
+.module_inner h3 {
+    background: #F05223;
+    color: #fff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    font-family: 'Poppins-SemiBold';
+    font-size: 22px;
+}
+
+.module_inner ul {
+    margin: 20px;
+}
+
+.module_inner ul li {
+    margin-bottom: 10px;
+}
+
+/* Potential recruiters */
+
+section.recruiter_sec {
+    background: #FFF3F0;
+}
+
+.recruiter_slide img {
+    width: 230px !important;
+    margin: auto;
+}
+
+.recruiter_slide .item {
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.recruiter_slide .owl-nav {
+    display: none;
+}
+
+.recruiter_slide .owl-dots {
+    margin-top: 40px !important;
+}
+
+.recruiter_slide .owl-dots span {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.recruiter_slide .owl-dots .active span {
+    background: #F05223 !important;
+}
+
+.advantage_sec .advantage_main {
+    display: flex;
+    gap: 20px;
+}
+
+.advantage_main .advantage_innr {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.advantage_main .advantage_pmucol {
+    width: 30%;
+}
+
+
+.advantage_innr .practical_innr {
+    text-align: center;
+    background: #FFF3F0;
+    padding: 30px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid #FFD4C7;
+}
+
+.practical_innr img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.practical_innr p {
+    font-size: 16px;
+}
+
+.practical_innr ul {
+    margin: 20px;
+}
+
+
+.practical_innr ul li {
+    margin-bottom: 10px;
+}
+
+.advantage_pmucol .practical_innr {
+    background: #F05223;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.practical_innr h4 {
+    font-family: 'Poppins-SemiBold';
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* campus life */
+.campus_life .campus_main {
+    display: flex;
+    gap: 20px;
+}
+
+.campus_main .compus_innr {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* RESEARCH & TECHNOLOGY */
+
+
+section.educational_tour {
+    background: #FFF3F0;
+}
+
+.educational_tour .education_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.education_main .educat_left {
+    width: 60%;
+}
+
+.education_main .educat_ryt {
+    width: 40%;
+}
+
+.educat_left h2 {
+    font-family: 'Poppins-SemiBold';
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.educat_left h3 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.educat_left p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* map section */
+.map_sec .map_main {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.map_main .map_innr {
+    width: 60%;
+    text-align: right;
+}
+
+.map_main .map_innr img {
+    width: 90%;
+}
+
+.map_main .map_content {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* section.map_sec::before {
+    content: '';
+    background: #F05223;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45%;
+} */
+
+section.map_sec {
+    padding-bottom: 0;
+}
+
+.map_cont h3 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 22px;
+    color: #F05123;
+    margin-bottom: 20px;
+}
+
+.map_cont p {
+    font-family: 'Poppins-SemiBold';
+    font-size: 16px;
+}
+
+section.map_sec .map_img {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+section.map_sec .map_img img {
+    position: relative;
+    z-index: 1;
+}
+
+section.map_sec .map_img::before {
+    content: '';
+    background: #F05223;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 42%;
+}
+
+.map_cont .map_address {
+    background: #F05123;
+    color: #fff;
+    padding: 20px;
+}
+
+.map_cont .map_address a {
+    color: #fff;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 2500px) {}
+
+@media screen and (max-width: 1700px) {}
+
+
+@media screen and (max-width: 1600px) {}
+
+
+@media screen and (max-width: 1300px) {
+    .immersive_sec .immersive_main {
+        width: 70%;
+        right: 3rem;
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .banner_sec .banner_btn a {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+
+    .banner_sec .banner_btn p {
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .banner_sec .banner_btn {
+        bottom: 1.5rem;
+        text-align: left;
+    }
+
+    .advantage_sec .advantage_main {
+        flex-wrap: wrap;
+    }
+
+    .advantage_sec .advantage_main>div {
+        width: 100%;
+    }
+
+    .immersive_sec .immersive_main {
+        width: 100%;
+        right: 0;
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .immersive_sec .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 992px) {
+
+    section.banner_sec {
+        background: #E7EBEC;
+        padding: 0;
+    }
+
+    section.programme_sec {
+        background: #FFF3F0;
+        padding: 20px 0;
+    }
+
+    .header-logo img {
+        width: 150px;
+    }
+
+    .footer-main>div {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .banner_sec .banner_btn {
+        display: none;
+    }
+
+    .program_main .program_inner {
+        padding: 0 30px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .program_main .program_inner:last-child {
+        width: 100%;
+    }
+
+    .program_main .program_inner::before {
+        display: none;
+    }
+
+    .choose_main .choose_innr {
+        width: 48%;
+    }
+
+    .choose_main .choose_millon,
+    .modules_main .module_inner {
+        width: 47%;
+    }
+
+    .choose_main h3 {
+        font-size: 20px;
+    }
+
+    .educat_left h2 {
+        width: 100%;
+    }
+
+    .educational_tour .education_main {
+        flex-wrap: wrap;
+    }
+
+    .educational_tour .education_main>div {
+        width: 100%;
+    }
+
+    .recruiter_slide {
+        width: 90%;
+        margin: auto;
+    }
+
+    .program_inner h4 {
+        font-family: 'Poppins-SemiBold';
+        font-weight: 600;
+        font-size: 17px;
+        width: 75%;
+        margin: auto;
+        padding: 10px 0;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .header-main .book-btn a {
+        font-size: 12px;
+        text-transform: uppercase;
+        background: #F05123;
+        color: #fff;
+        padding: 10px 15px;
+    }
+
+    .program_main .program_inner {
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        display: block;
+        height: auto;
+        margin: 15px;
+    }
+
+    .program_main .program_inner::before {
+        display: block;
+        top: unset;
+        border: 0;
+        border-bottom: 1px solid #000;
+        width: 80%;
+        bottom: -1rem;
+        height: 1%;
+        margin: auto;
+        text-align: center;
+        right: 0;
+        left: 0;
+    }
+
+    .program_inner h4 {
+        width: 100%;
+    }
+
+    .choose_main .choose_innr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    button.book-enquiry {
+        top: unset;
+        bottom: 0;
+        transform: unset;
+        width: 100%;
+    }
+
+    .footer-main>div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    footer.footer_sec {
+        padding: 60px 0 0px;
+    }
+
+    .header-logo img {
+        width: 80%;
+    }
+
+    .choose_main .choose_millon,
+    .modules_main .module_inner {
+        width: 100%;
+    }
+
+    .choose_main .choose_Upsurge {
+        padding: 0;
+    }
+
+
+    .advantage_innr .practical_innr {
+        width: 46%;
+    }
+
+    .sub_heading {
+        font-size: 30px;
+    }
+
+    .immersive_main h2 {
+        font-size: 40px;
+    }
+
+    .immersive_main h3 {
+        font-size: 23px;
+    }
+
+    .immersive_main h5 {
+        font-size: 22px;
+    }
+
+    .campus_life .campus_main {
+        flex-wrap: wrap;
+    }
+
+    .campus_main .compus_innr {
+        width: 100%;
+    }
+
+    .educat_left h2 {
+        font-size: 30px;
+    }
+
+    .educat_left h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    section.why_choose h2 {
+        line-height: normal;
+        font-size: 25px;
+    }
+
+    section.why_choose h2 span {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    p,
+    li,
+    .why_choose p,
+    .educat_left p {
+        font-size: 15px;
+    }
+
+    .choose_millon p {
+        padding: 30px;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .practical_innr ul {
+        margin: 20px 0;
+    }
+
+    .practical_innr h4 {
+        font-family: 'Poppins-SemiBold';
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .practical_innr p {
+        font-size: 12px;
+    }
+
+    .recruiter_slide img {
+        width: 200px !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 350px) {
+
+    .advantage_innr .practical_innr {
+        width: 100%;
+    }
+
+    .header-main .book-btn a {
+        font-size: 10px;
+    }
+
+}
